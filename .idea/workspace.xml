@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de8e6c5b-7cc3-48d1-bd97-d182c9116bea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/oef1-1/student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1-2/img/berlijn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1-2/img/londen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1-2/img/parijs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1-2/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1-2/index2.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="9705edde-be8d-4125-8505-297a274a2024" />
+  </component>
+  <component name="ProjectId" id="1kp82hQ3l3Mai7EwVOULOpkcOi7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/oef1-2/img" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oef1-2/img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de8e6c5b-7cc3-48d1-bd97-d182c9116bea" name="Default Changelist" comment="" />
+      <created>1606385966718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606385966718</updated>
+      <workItem from="1606385967796" duration="1792000" />
+    </task>
+    <task id="LOCAL-00001" summary="2de commit om te proberen">
+      <created>1606388063883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606388063883</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2de commit om te proberen" />
+    <option name="LAST_COMMIT_MESSAGE" value="2de commit om te proberen" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="256" y="25" key="CommitChangelistDialog2" timestamp="1606388063756">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="256" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1606388063756" />
+    <state x="569" y="354" key="Github.ShareDialog" timestamp="1606386984837">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="569" y="354" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1606386984837" />
+    <state x="438" y="162" key="Github.UntrackedFilesDialog" timestamp="1606387032130">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="438" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1606387032130" />
+    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1606388268422">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1606388268422" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1606387634362">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606387634362" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606388103585">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606388103585" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1606388260668">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1606388260668" />
+  </component>
+</project>
