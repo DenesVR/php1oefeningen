@@ -1,6 +1,6 @@
 <?php
 include_once "connection.php";
-include_once "html_components.php";
+include_once "lib/html_components.php";
 ?>
 
     <div class="jumbotron text-center">
