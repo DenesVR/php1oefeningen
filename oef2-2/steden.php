@@ -1,6 +1,9 @@
 <?php
 include_once "connection.php";
 include_once "lib/html_components.php";
+
+printHead();
+printJumbo();
 ?>
 
 <div class="container">

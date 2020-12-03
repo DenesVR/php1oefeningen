@@ -1,7 +1,9 @@
 <?php
 
-$printHead = file_get_contents("templates/head.html");
-print $printHead;
+function printHead() {
+    echo file_get_contents("templates/head.html");
+}
 
-$printJumbo = file_get_contents("templates/jumbo.html");
-print $printJumbo;
+function printJumbo() {
+    echo file_get_contents("templates/jumbo.html");
+}
