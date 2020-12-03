@@ -16,7 +16,7 @@ $resultCheck = mysqli_num_rows($result);
 if($resultCheck > 0) {
     while ($row = mysqli_fetch_assoc($result)) {
 
-
+        echo "<div class='col-sm-12'>";
         echo "<h3>".$row[img_title]."</h3>";
         echo "<p>Filename: " . $row[img_filename] . " </p>";
         echo "<p>".$row[img_width]." x ".$row[img_height]." pixels</p>";
