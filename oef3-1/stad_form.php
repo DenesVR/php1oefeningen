@@ -3,6 +3,8 @@ include_once "lib/connection.php";
 include_once "lib/html_components.php";
 
 printHead();
+
+echo $_SESSION['message'];
 ?>
 
     <div class="jumbotron text-center">
@@ -34,4 +36,3 @@ foreach ( $rows as $row )
 
     </body>
 </html>
-
