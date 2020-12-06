@@ -9,30 +9,21 @@ printHead();
         <h1>Detail stad</h1>
     </div>
 
-<?php
-
-        if ( ! is_numeric( $_GET['img_id']) ) die("Ongeldig argument " . $_GET['img_id'] . " opgegeven");
-
-        $rows = GetData( "select * from images where img_id=" . $_GET['img_id'] );
-
-        //get template
-        $template = file_get_contents("templates/column_full.html");
-
-        //merge
-        foreach ( $rows as $row )
-        {
-            $output = $template;
-
-            foreach( array_keys($row) as $field )
-            {
-                $output = str_replace( "@$field@", $row["$field"], $output );
-            }
-            print $output;
-        }
-
-?>
+<form>
+    <div class="form-group row">
+        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+            <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+        </div>
     </div>
+    <div class="form-group row">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
     </div>
+    <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+</form>
 
     </body>
 </html>
