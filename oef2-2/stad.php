@@ -1,5 +1,5 @@
 <?php
-include_once "connection.php";
+include_once "lib/connection.php";
 include_once "lib/html_components.php";
 
 printHead();
@@ -11,28 +11,24 @@ printHead();
 
 <?php
 
-$sql = "SELECT * FROM images where img_id=".$_GET['img_id'];
-$result = mysqli_query($conn,$sql);
-$resultCheck = mysqli_num_rows($result);
+        if ( ! is_numeric( $_GET['img_id']) ) die("Ongeldig argument " . $_GET['img_id'] . " opgegeven");
 
-if($resultCheck > 0) {
-    while ($row = mysqli_fetch_assoc($result)) {
+        $rows = GetData( "select * from images where img_id=" . $_GET['img_id'] );
 
-        echo "<div class='col-sm-12'>";
-        echo "<h3>".$row[img_title]."</h3>";
-        echo "<p>Filename: " . $row[img_filename] . " </p>";
-        echo "<p>".$row[img_width]." x ".$row[img_height]." pixels</p>";
-        echo "<img src=" . $row[img_filename] . " style='width:75%'>";
-        echo "<br>";
-        echo "<a href='http://localhost:8081/php1oefeningen/oef2-1/steden2.php'>Terug naar overzicht</a>";
-        echo "</div>";
+        //get template
+        $template = file_get_contents("templates/column_full.html");
 
-    }
-}
-else
-{
-    echo "No records found";
-}
+        //merge
+        foreach ( $rows as $row )
+        {
+            $output = $template;
+
+            foreach( array_keys($row) as $field )
+            {
+                $output = str_replace( "@$field@", $row["$field"], $output );
+            }
+            print $output;
+        }
 
 ?>
     </div>

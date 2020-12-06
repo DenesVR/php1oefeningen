@@ -1,5 +1,5 @@
 <?php
-include_once "connection.php";
+include_once "lib/connection.php";
 include_once "lib/html_components.php";
 
 printHead();
@@ -10,25 +10,15 @@ printJumbo();
     <div class="row">
         <?php
 
-        $sql = "SELECT * FROM images";
-        $result = mysqli_query($conn,$sql);
-        $resultCheck = mysqli_num_rows($result);
+        //get data
+        $rows = GetData( "select * from images" );
 
-        if($resultCheck > 0) {
-            while ($row = mysqli_fetch_assoc($result)){
+        //get template
+        $template = file_get_contents("templates/column_steden.html");
 
-                echo "<div class='col-sm-4'>";
-                echo "<h3>".$row[img_title]."</h3>";
-                echo "<p>".$row[img_width]." x ".$row[img_height]."</p>";
-                echo "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>";
-                echo "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>";
-                echo "<img src=" . $row[img_filename] . ">";
-                echo "<br>";
-                echo "<a href='http://localhost:8081/php1oefeningen/oef2-1/stad.php?img_id=".$row[img_id]."'>Meer info</a>";
-                echo "</div>";
-
-            }
-        }
+        //merge
+        $html = MergeViewWithData( $template, $rows );
+        print $html;
 
         ?>
     </div>
