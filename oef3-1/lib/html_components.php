@@ -2,12 +2,13 @@
 
 #Printen van de html head
 function printHead() {
-    echo file_get_contents("templates/head.html");
+    $head = file_get_contents("templates/head.html");
+    print $head;
 }
 
 #Printen van de Jumbotron html
 function printJumbo($titel = "", $subtitel= "") {
-    $jumbo = file_get_contents("./templates/jumbo.html");
+    $jumbo = file_get_contents("templates/jumbo.html");
     $jumbo = str_replace("@titel@", "$titel", $jumbo);
     $jumbo = str_replace("@subtitel@", "$subtitel", $jumbo);
     print $jumbo;
