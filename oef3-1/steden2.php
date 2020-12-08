@@ -3,7 +3,7 @@ include_once "lib/connection.php";
 include_once "lib/html_components.php";
 
 printHead();
-printJumbo();
+printJumbo("Leuke plekken in Europa","Tips voor citytrips voor vrolijke vakantiegangers!");
 ?>
 
 <div class="container">

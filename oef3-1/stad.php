@@ -6,13 +6,7 @@ include_once "lib/connection.php";
 include_once "lib/html_components.php";
 
 printHead();
-?>
-
-<div class="jumbotron text-center">
-    <h1>Detail stad</h1>
-</div>
-
-<?php
+printJumbo("Detail stad","");
 
 if ( ! is_numeric( $_GET['img_id']) ) die("Ongeldig argument " . $_GET['img_id'] . " opgegeven");
 
