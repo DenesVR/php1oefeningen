@@ -13,7 +13,7 @@ if ( $_SERVER['REQUEST_METHOD'] == "POST" AND $_POST["submitButton"] == "OK" ) {
     $img_width = $_POST['img_width'];
     $img_height = $_POST['img_height'];
 
-    $rows = GetData("UPDATE images SET img_title='$img_title', img_filename='$img_filename', img_width='$img_width', img_height='$img_height' WHERE img_id=$img_id");
+    $stmt = UpdateData("UPDATE images SET img_title='$img_title', img_filename='$img_filename', img_width='$img_width', img_height='$img_height' WHERE img_id=$img_id");
 
     header('location: steden2.php');
 }
