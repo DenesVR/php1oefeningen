@@ -6,7 +6,7 @@ $public_access =  false;
 require_once "lib/autoload.php";
 session_regenerate_id('user');
 session_destroy();
-header("Location: login.php");
+header("Location: login.php?logout=true");
 
 PrintHead();
 PrintJumbo( $title = "Login", $subtitle = "" );
